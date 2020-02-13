@@ -90,6 +90,7 @@ et appuyer sur espace pour continuer d’afficher
 
 **15.** dmesg est une commande sur les systèmes d'exploitation de type Unix qui affiche la mémoire tampon de message du noyau
 less est une commande Unix permettant de visualiser un fichier texte page par page (sans le modifier). Sa fonction est similaire à la commande more, mais permet en plus de revenir en arrière ou de rechercher une chaîne.
+
 dmesg  | less → affiche mem tampon, on peut aller en avant et en arriere page par page.
 
 **16.** /etc/passwd → fichier mdp user
@@ -155,5 +156,6 @@ Alt + E Refaire
 **4.** Modifiez l’invite de commande pour qu’elle s’affiche sous la forme suivante :
 * nano .bashrc
 * remplacer la ligne par :
+
 PS1='${debian_chroot:+($debian_chroot)}\033[91m\][\A] \033[00m\]- \[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$ '
 
