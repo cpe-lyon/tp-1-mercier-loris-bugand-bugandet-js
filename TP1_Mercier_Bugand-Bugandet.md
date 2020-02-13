@@ -1,5 +1,5 @@
 ### Auteurs : Jean-Sébastien BUGAND-BUGANDET et Loris MERCIER
-# TPP 1 - Installation d’Ubuntu Server et prise en main du shell
+# TP 1 - Installation d’Ubuntu Server et prise en main du shell
 
 # Exercice 2. Prise en main de l’interpréteur de commandes
 ## Manuel
