@@ -47,21 +47,21 @@
 
 C’est date pour avoir l’heure ;)
 
-**2.** ls --> affiche dossier
+**2.** **_ls_** --> affiche dossier
 
 **la**  → affiche tous les dossiers visibles et cachés
 
-**3.** which ls → /usr/bin/ls
+**3.** **_which ls_** → /usr/bin/ls
 
-**4.** ll → affiche tous les dossiers + détails
+**4.** **_ll_** → affiche tous les dossiers + détails
 
 ll = ls -alF (all, long et classify)
 
-**5.** ls /bin
+**5.** **_ls /bin_**
 
-**6.** ls .. → affiche le contenu du dossier situé avant
+**6.** **_ls_** .. → affiche le contenu du dossier situé avant
 
-**7.**pwd → chemin du dossier courant
+**7.** **_pwd_** → chemin du dossier courant
 
 **8.** echo ‘yo’ > plop → créer un fichier plop avec “yo”
 
@@ -78,30 +78,30 @@ titi fonctionne même si toto est modifié, et il affiche le dernier contenue de
 
 **12.** On peut faire un ln titi tutu mais pas inverse, on suppr le titi et tutu affiche le dernier contenu de titi
 
-**13.** more /var/log/syslog
+**13.** **_more /var/log/syslog_**
 
 et appuyer sur espace pour continuer d’afficher
 
-**14.** head -n 5 /var/log/syslog → affiche les 5 premières lignes
+**14.** **_head -n 5 /var/log/syslog_** → affiche les 5 premières lignes
 
-tail -n 15 /var/log/syslog → affiche les 15 dernières lignes
+**_tail -n 15 /var/log/syslog_** → affiche les 15 dernières lignes
 
-head -n 20 /var/log/syslog | tail -n 10
+**_head -n 20 /var/log/syslog | tail -n 10_**
 
 **15.** dmesg est une commande sur les systèmes d'exploitation de type Unix qui affiche la mémoire tampon de message du noyau
 less est une commande Unix permettant de visualiser un fichier texte page par page (sans le modifier). Sa fonction est similaire à la commande more, mais permet en plus de revenir en arrière ou de rechercher une chaîne.
 dmesg  | less → affiche mem tampon, on peut aller en avant et en arriere page par page.
-16. /etc/passwd → fichier mdp user
+**16.** /etc/passwd → fichier mdp user
 man passwd
-17. afficher 1ere colonne par ordre alphabétique inverse → sort -k1dr
-18. cat /etc/passwd | awk -F: '{print $ 1}' → affiche les users
-19. apropos est une commande Unix qui permet de lister les manuels dont la description comprend les mots passés en arguments.
+**17.** afficher 1ere colonne par ordre alphabétique inverse → sort -k1dr
+**18.** cat /etc/passwd | awk -F: '{print $ 1}' → affiche les users
+**19.** apropos est une commande Unix qui permet de lister les manuels dont la description comprend les mots passés en arguments.
 apropos conversion 
-20. find -name passwd → à la racine pour trouver touts les fichiers nommés passwd
-21. find -name passwd > ~/list_passwd_files.txt 2> /dev/null
-22. sort /home/js/.bashrc | grep ll → cherche ou est def alias ll
-23. locate .history → localise fichier history.log
-24. pour les fichiers récents il faut faire updatedb, puis on fait le locate.
+**20.** find -name passwd → à la racine pour trouver touts les fichiers nommés passwd
+**21.** find -name passwd > ~/list_passwd_files.txt 2> /dev/null
+**22.** sort /home/js/.bashrc | grep ll → cherche ou est def alias ll
+**23.** locate .history → localise fichier history.log
+**24.** pour les fichiers récents il faut faire updatedb, puis on fait le locate.
 
 
 
