@@ -70,13 +70,13 @@ dmesg  | less → affiche mem tampon, on peut aller en avant et en arriere page 
 16. /etc/passwd → fichier mdp user
 man passwd
 17. afficher 1ere colonne par ordre alphabétique inverse → sort -k1dr
-18.cat /etc/passwd | awk -F: '{print $ 1}' → affiche les users
+18. cat /etc/passwd | awk -F: '{print $ 1}' → affiche les users
 19. apropos est une commande Unix qui permet de lister les manuels dont la description comprend les mots passés en arguments.
 apropos conversion 
 20. find -name passwd → à la racine pour trouver touts les fichiers nommés passwd
-21.find -name passwd > ~/list_passwd_files.txt 2> /dev/null
-22.sort /home/js/.bashrc | grep ll → cherche ou est def alias ll
-23.locate .history → localise fichier history.log
+21. find -name passwd > ~/list_passwd_files.txt 2> /dev/null
+22. sort /home/js/.bashrc | grep ll → cherche ou est def alias ll
+23. locate .history → localise fichier history.log
 24. pour les fichiers récents il faut faire updatedb, puis on fait le locate.
 
 
