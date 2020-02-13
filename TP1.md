@@ -35,9 +35,13 @@
 * mkdir Dossier2.1 Dossier2.2
 * cd Dossier 2.2
 * Touch Fichier2 Fichier3
+
 **8.** rm Fichier1 → suppr fichier
+
 **9.** rmdir Dossier1 → suppr dossier
+
 **10.** erreur avec rmdir Dossier2
+
 **11.** normal faut faire en récursif → rmdir -r
 
 ## Commandes importantes
