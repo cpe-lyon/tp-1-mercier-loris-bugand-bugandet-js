@@ -15,11 +15,11 @@
 ## Navigation dans l’arborescence des fichiers
 **1.** Pour accéder au dossier log : **_cd /var/log_**
 
-**2.** Pour accéder au dossier parent : **_cd .. _**
+**2.** Pour accéder au dossier parent : **_cd .._**
 
-**3.** Pour accéder au dossier personnel : **_cd ~ _**
+**3.** Pour accéder au dossier personnel : **_cd ~_**
 
-**4.** Pour accéder au dossier de la dernière recherche : **_cd - _**
+**4.** Pour accéder au dossier de la dernière recherche : **_cd -_**
 
 **5.** cd /root → permission denied
 
@@ -91,33 +91,52 @@ et appuyer sur espace pour continuer d’afficher
 **15.** dmesg est une commande sur les systèmes d'exploitation de type Unix qui affiche la mémoire tampon de message du noyau
 less est une commande Unix permettant de visualiser un fichier texte page par page (sans le modifier). Sa fonction est similaire à la commande more, mais permet en plus de revenir en arrière ou de rechercher une chaîne.
 dmesg  | less → affiche mem tampon, on peut aller en avant et en arriere page par page.
+
 **16.** /etc/passwd → fichier mdp user
+
 man passwd
+
 **17.** afficher 1ere colonne par ordre alphabétique inverse → sort -k1dr
+
 **18.** cat /etc/passwd | awk -F: '{print $ 1}' → affiche les users
+
 **19.** apropos est une commande Unix qui permet de lister les manuels dont la description comprend les mots passés en arguments.
+
 apropos conversion 
+
 **20.** find -name passwd → à la racine pour trouver touts les fichiers nommés passwd
+
 **21.** find -name passwd > ~/list_passwd_files.txt 2> /dev/null
+
 **22.** sort /home/js/.bashrc | grep ll → cherche ou est def alias ll
+
 **23.** locate .history → localise fichier history.log
+
 **24.** pour les fichiers récents il faut faire updatedb, puis on fait le locate.
-
-
 
 
 # Exercice 3. Découverte de l’éditeur de texte nano
 
 F1 ou Ctrl + G Affichage de l’aide 
+
 Ctrl + X Quitter nano / Fermer une fenêtre / Exécuter une commande Ctrl + R Ouvrir un fichier 
+
 Ctrl + O Enregistrer sous 
+
 Ctrl + S Enregistrer 
+
 Ctrl + K Couper 
+
 Ctrl + U Coller 
+
 Ctrl + W Rechercher 
+
 Ctrl + \ Remplacer 
+
 Ctrl + C Afficher des informations sur la position du curseur (numéro de ligne, de colonne) 
+
 Alt + U Annuler 
+
 Alt + E Refaire 
 
 # Exercice 4. Personnalisation du shell
